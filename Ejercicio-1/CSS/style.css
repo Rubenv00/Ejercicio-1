@@ -1,0 +1,86 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+.header{
+    background-color: black;
+    padding: 1px;
+}
+
+.section{
+    background-color: black;
+    padding: 1px;
+}
+
+.footer{
+    background-color: black;
+}
+
+.cajas{
+    background-color: blue;
+    display: flex;
+}
+
+.cajita{
+    background-color: pink;
+    flex-grow: 1;
+}
+
+.cajita-grande{
+    background-color: pink;
+    flex-grow: 3;
+}
+
+.cajas-abajo{
+    background-color: orange;
+    display: flex;
+}
+
+.cajita-abajo{
+    background-color: yellow;
+    flex-grow: 5;
+}
+
+.div-section{
+    display: flex;
+    padding: 1px;
+    margin: 1px;
+}
+
+.izquierda{
+    background-color: blueviolet;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.derecha{
+    display: flex;
+    background-color: beige;
+    width: 40%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.cajas-izquierda{
+    background-color: brown;
+    width: 40%;
+    margin: 5px 10px;
+}
+.cajas-izquierda-abajo{
+    background-color: crimson;
+    width: 90%;
+}
+
+.caja-derecha{
+background-color: cornflowerblue;
+margin: 2px;
+}
+
+.caja-footer{
+    background-color: chartreuse;
+}
