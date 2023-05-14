@@ -1,86 +1,76 @@
-*{
-    margin: 10px;
+.p-10{
     padding: 10px;
 }
 
-.header{
-    background-color: black;
-    padding: 1px;
+.mtb-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.section{
-    background-color: black;
-    padding: 1px;
-}
-
-.footer{
+.black-background{
     background-color: black;
 }
 
-.cajas{
-    background-color: blue;
-    display: flex;
-}
-
-.cajita{
-    background-color: pink;
-    flex-grow: 1;
-}
-
-.cajita-grande{
-    background-color: pink;
-    flex-grow: 3;
-}
-
-.cajas-abajo{
+.orange{
     background-color: orange;
+}
+
+.flex-container{
     display: flex;
 }
 
-.cajita-abajo{
-    background-color: yellow;
-    flex-grow: 5;
+.mb-5{
+    margin-bottom: 5px;
 }
 
-.div-section{
-    display: flex;
-    padding: 1px;
-    margin: 1px;
+.mb-10{
+    margin-bottom: 10px;
 }
 
-.izquierda{
-    background-color: blueviolet;
-    width: 60%;
-    height: 80%;
-    display: flex;
+.w10{
+    width: 10%;
+}
+
+.w67{
+    width: 67%;
+}
+
+.flex-row{
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
-.derecha{
-    display: flex;
-    background-color: beige;
-    width: 40%;
+.w47{
+    width: 47%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w75{
+    width: 75%;
+}
+
+.w30{
+    width: 30%;
+}
+
+.flex-column{
     flex-direction: column;
+}
+
+.flex-wrap{
     flex-wrap: wrap;
-    gap: 1px;
 }
 
-.cajas-izquierda{
-    background-color: brown;
-    width: 40%;
-    margin: 5px 10px;
-}
-.cajas-izquierda-abajo{
-    background-color: crimson;
-    width: 90%;
+.flex-between{
+    justify-content: space-between;
 }
 
-.caja-derecha{
-background-color: cornflowerblue;
-margin: 2px;
-}
+@media (max-width: 890px){
 
-.caja-footer{
-    background-color: chartreuse;
+    .yellow-blackground{
+        background-color: yellow;
+    }
+
 }
