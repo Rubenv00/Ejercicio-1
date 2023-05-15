@@ -27,6 +27,14 @@
     margin-bottom: 5px;
 }
 
+.m-5{
+    margin: 5px;
+}
+
+.mr-5{
+    margin-right: 5px;
+}
+
 .mb-10{
     margin-bottom: 10px;
 }
@@ -71,6 +79,8 @@
     justify-content: space-between;
 }
 
+
+
 @media (max-width: 1041px){
 
     .w47{
@@ -85,4 +95,64 @@
         background-color: yellow;
     }
 
+
+}
+
+@media (max-width: 437px){
+
+    .yellow-blackground{
+        background-color: yellow;
+    }
+
+    .query-one{
+        display: flex;
+        background-color: orange;
+        padding: 10px;
+        margin-bottom: 5px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .query-one-sons{
+        background-color: black;
+        padding: 10px;
+        width: auto;
+    }
+
+    .query-two-father{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .query-two{
+        display: flex;
+        background-color: orange;
+        padding: 10px;
+        margin: 0 0 10 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .query-two-sons{
+        background-color: black;
+        width: auto;
+    }
+
+    .query-three{
+        display: flex;
+        background-color: orange;
+        padding: 10px;
+        margin-bottom: 5px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    .query-two-sons{
+        background-color: black;
+        padding: 10px;
+        width: auto;
+    }
 }
