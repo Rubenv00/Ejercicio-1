@@ -1,0 +1,44 @@
+.h-25{
+    height: 50%;
+    width: 50%;
+}
+
+.w-70{
+    width: 70%;
+}
+
+.prel{
+    position: relative;
+}
+
+.block{
+    display: block;
+}
+
+.ml-a{
+    margin-left: auto;
+}
+
+.mr-a{
+    margin-right: auto;
+}
+
+.pabs{
+    position: absolute;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.top{
+    top: 200px;
+}
+
+.pink{
+    color: coral;
+}
+
+.transparent-black{
+    background-color: rgb(0, 0, 0, 0.1);
+}
