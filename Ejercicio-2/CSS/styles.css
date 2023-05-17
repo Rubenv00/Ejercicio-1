@@ -1,44 +1,110 @@
-.h-25{
-    height: 50%;
-    width: 50%;
+body {
+  margin: 0px 90px 0px 90px;
+  padding: 0px;
 }
 
-.w-70{
-    width: 70%;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-.prel{
+.logo img {
+  width: 60px;
+}
+
+.nav-header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.inicio :hover {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.rutas :hover {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.hoteles :hover {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.vuelos :hover {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.contacto :hover {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.fb :hover {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.tw :hover {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.nav-header ul li {
+  margin: 0 10px;
+}
+
+.nav-header ul li a {
+  text-decoration: none;
+  color: rgb(75, 75, 75);
+  padding: 10px;
+}
+
+.nav-header ul li a i {
+  padding: 5px;
+  pointer-events: none;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-left: 20px;
+  color: rgb(75, 75, 75);
+}
+
+.imagen-header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../IMG/header.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 58%;
+    height: 290px;
+}
+
+.imagen-header img{
+    width: 100%;
+    height: 100px;
+}
+
+.disfruta{
     position: relative;
-}
-
-.block{
-    display: block;
-}
-
-.ml-a{
-    margin-left: auto;
-}
-
-.mr-a{
-    margin-right: auto;
-}
-
-.pabs{
-    position: absolute;
-}
-
-.m-auto{
-    margin: auto;
-}
-
-.top{
-    top: 200px;
-}
-
-.pink{
-    color: coral;
-}
-
-.transparent-black{
-    background-color: rgb(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.06);
+    color: rgb(255, 149, 184);
+    font-size: 2rem;
+    text-align: center;
+    width: 90%;
 }
